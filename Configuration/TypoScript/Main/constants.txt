@@ -300,6 +300,9 @@ plugin.tx_powermail {
 
 		# CSS classes for frameworks (add only if bootstrapClassesAndLayout is not added before)
 		styles {
+			# add required bootstrap constants to main settings, because it is used in a condition
+			bootstrap.important = 0
+
 			framework {
 				# cat=powermail_styles//0020; type=int+; label= Number of columns
 				numberOfColumns = 0
